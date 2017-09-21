@@ -1,0 +1,9 @@
+{
+  "disallowIdLiterals": null,
+  "rules": [
+    {
+      "requireIdLiteralsBeforeAttributes": true
+    },
+    { "validateIndentation": 4 }
+  ]
+}
