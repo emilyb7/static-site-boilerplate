@@ -1,0 +1,18 @@
+body {
+  font-family: quicksand, sans-serif;
+  background-color: #66cccc;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 100vh;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+.main_content {
+  flex: 1 0 auto;
+  margin-top: auto;
+}
