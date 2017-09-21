@@ -1,0 +1,10 @@
+mixin footerLink (text, href)
+    li.ma3.mv0-ns
+      a.tracked.no-underline.white(href=`${href}`)=text
+
+footer.bg-black.pv4.pv3-ns.ph5-ns.flex.flex-column.row-reverse-ns.justify-between.f7.f4-ns.tc.tracked.white
+    ul.w-100.w-auto-ns.ma0.pa0.flex.flex-column.flex-row-ns.list
+        for link in footer.links
+            +footerLink(link.text, link.link)
+    p.mt4.mv0-ns Made with 💛
+        span#footer_date 

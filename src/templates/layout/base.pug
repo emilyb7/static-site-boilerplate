@@ -1,0 +1,19 @@
+//-- snippets get passed down to all views
+include ../mixins/snippets
+
+doctype html
+html(lang="en")
+  head
+    block title
+    title=pageTitle
+    meta(name="viewport", content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width")
+    link(rel='stylesheet', href='./styles/main.css')
+    link(rel="icon" href="./favicon.ico?v=1" type="image/x-icon")
+  body
+    .main_content
+        block content
+      
+    include ../partials/footer
+    
+    script
+        include ../js/index.js
