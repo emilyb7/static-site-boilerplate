@@ -117,7 +117,7 @@ gulp.task(BROWSERSYNC, () => {
   })
 })
 
-gulp.task(WATCH, [ BROWSERSYNC, PUG, CSS, ], () => {
+gulp.task(WATCH, [ COPY, BROWSERSYNC, PUG, CSS, ], () => {
   gulp.watch(path.join(SRC, TEMPLATES, '**', '*.pug'), [ PUG, ])
   gulp.watch(path.join(SRC, CONTENT, '**', '*.js'), [ PUG, ])
   gulp.watch(path.join(SRC, STYLES, '*.css'), [ CSS, ])
