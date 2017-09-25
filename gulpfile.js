@@ -74,7 +74,7 @@ gulp.task(PUG, () => {
           SRC,
           CONTENT,
           VIEWS,
-          filename + '.js'
+          filename + '.json'
         )
         const view = require(dataPath)
         return Object.assign({}, { view, }, locals)
