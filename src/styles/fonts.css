@@ -1,20 +1,20 @@
 @font-face {
   font-family: quicksand;
-  src: url('../fonts/Quicksand-Regular.ttf');
+  src: url('../fonts/Quicksand-Regular.otf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: quicksand;
-  src: url('../fonts/Quicksand-Bold.ttf');
+  src: url('../fonts/Quicksand-Bold.otf');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: quicksand;
-  src: url('../fonts/Quicksand-Light.ttf');
+  src: url('../fonts/Quicksand-Light.otf');
   font-weight: 300;
   font-style: normal;
 }

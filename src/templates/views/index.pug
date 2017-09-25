@@ -4,7 +4,12 @@ prepend title
     title=view.pageTitle
 
 block content
-    +heading("Homepage!")
+  
+    #title_container.pa3
+        +heading("Homepage!")
+        
+    #main_content_container.pa3
+         p=view.mainContent
 
-    .image_container 
+    #image_container.pa3-ns
         img(src='./images/cat.gif')

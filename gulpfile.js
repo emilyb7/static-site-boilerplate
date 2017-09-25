@@ -46,13 +46,13 @@ gulp.task(CLEAN, () => {
 })
 
 gulp.task(COPY_FONTS, () => {
-  const srcPath = path.join(SRC, FONTS, '*.ttf')
+  const srcPath = path.join(SRC, FONTS, '*.{ttf,otf}')
   const destPath = path.join(PUBLIC, FONTS)
   return gulp.src(srcPath).pipe(gulp.dest(destPath))
 })
 
 gulp.task(COPY_IMAGES, [ CLEAN, ], () => {
-  const srcPath = path.join(SRC, IMAGES, '*.png')
+  const srcPath = path.join(SRC, IMAGES, '*.{png,gif,jpg}')
   const destPath = path.join(PUBLIC, IMAGES)
   return gulp.src(srcPath).pipe(gulp.dest(destPath))
 })

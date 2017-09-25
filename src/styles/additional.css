@@ -1,0 +1,9 @@
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+@media only screen and (min-width: 30em) {
+  .row-reverse-ns {
+    flex-direction: row-reverse;
+  }
+}

@@ -1,3 +1,4 @@
 @import 'node_modules/tachyons/css/tachyons.css';
 @import 'src/styles/fonts.css';
+@import 'src/styles/additional.css';
 @import 'src/styles/custom.css';
